@@ -1,0 +1,8 @@
+userinput=input("Enter you name : ")
+print(f"Hi!! {userinput} , Welcom to python Learnings...")
+sentence=input("Enter a sentence : ")
+print("Length of your sentence is : ",len(sentence))
+print("Making in ALl uppercase: ",sentence.upper())
+print("Making it now in lower case: ",sentence.lower())
+count=sentence.split()
+print(len(count))
